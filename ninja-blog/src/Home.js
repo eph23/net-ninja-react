@@ -41,8 +41,6 @@ const Home = () => {
                 title="All blogs!"
                 handleDelete={handleDelete}
             />
-            <button onClick={() => setName("Luigi")}>Change Name</button>
-            <p>{name}</p>
         </div>
     );
 };
